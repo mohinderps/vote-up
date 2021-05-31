@@ -12,23 +12,14 @@ console.log(house4);
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={house1} alt="house 1" />
-        <img src={house2} alt="house 2" />
-        <img src={house3} alt="house 3" />
-        <img src={house4} alt="house 4" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <img src={house1} alt="house 1" className="house-image" />
+      <img src={house2} alt="house 2" className="house-image"/>
+      <img src={house3} alt="house 3" className="house-image"/>
+      <img src={house4} alt="house 4" className="house-image"/> */}
+      <div className="item-a item">a</div>
+      <div className="item-b item">b</div>
+      <div className="item-c item">c</div>
+      <div className="item-d item">d</div>
     </div>
   );
 }
